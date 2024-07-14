@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow-macos = "*"
+tensorflow-metal = "*"
+pyspark = "*"
+gym = "*"
+keras = "*"
+keras-rl2 = "*"
+install = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+tensorflow-decision-forests = "*"
+matplotlib = "*"
+pydot = "==1.4.2"
+graphviz = "==2.46"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.9"
